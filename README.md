@@ -1,5 +1,5 @@
 <h1> spelling-corrector </h1> <br>
-<strong>a simple spell corrector based on Bayseian Probability implemented in Python inspired from Norvig's Spell Corrector /strong<>
+<strong>a simple spell corrector based on Bayseian Probability implemented in Python inspired from Norvig's Spell Corrector </strong>
 <p>Idea:
   -given a word: w   
   -an mistake may be resulted from one of the operation: deletion, insertion, swapping, substitution   
