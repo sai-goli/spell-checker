@@ -2,7 +2,7 @@
 a simple spell corrector based on Bayseian Probability implemented in Python
 inspired from Norvig's Spell Corrector 
 Idea:
-  -given a word: w
+  -given a word: w   
   -an mistake may be resulted from one of the operation: deletion, insertion, swapping, substitution
   -find all possible words with in one change from given word : e1
   -find all possible words within two changes from given word : e2
