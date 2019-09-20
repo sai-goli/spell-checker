@@ -1,4 +1,4 @@
-# spelling-corrector
+<h1> spelling-corrector <h1> 
 a simple spell corrector based on Bayseian Probability implemented in Python
 inspired from Norvig's Spell Corrector 
 'Idea:
