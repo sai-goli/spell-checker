@@ -1,6 +1,7 @@
 <h1> spelling-corrector </h1> <br>
 <strong>a simple spell corrector based on Bayseian Probability implemented in Python inspired from Norvig's Spell Corrector </strong>
-<p>Idea:
+<p><br>
+  Idea:   
   -given a word: w   
   -an mistake may be resulted from one of the operation: deletion, insertion, swapping, substitution   
   -find all possible words with in one change from given word : e1   
