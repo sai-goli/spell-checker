@@ -18,14 +18,11 @@ def edits1(word): # returns the list
 	swap_ = [word[:i]+word[i+1]+word[i]+word[i+2:] for i in range(len(word)-1)] 
 	# set of all possible letters
 	all_edits = set(del_+ins_+sub_+swap_)
-	#print('#del_',len(del_),n)
-	#print('#ins_',len(ins_),26*(n+1))
-	#print('#sub_',len(sub_),26*n)
-	#print('#swap_',len(swap_),n-1)
 	return all_edits
 	
 def edits2(word): #returns set of all possible words within two edit changes
 	return set( w2 for w1 in edits1(word) for w2 in edits1(w1))
+
 #a text file containing more than one million English words
 eng_file = open('big.txt').read()
 
@@ -50,7 +47,6 @@ def correction(word):
 	return max(candidates(word),key=prob)
 
 word = "the"
-
 while True:
 	word = input('Enter a Word :')
 	print(correction(word))
